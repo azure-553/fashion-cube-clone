@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Benefit from "./components/Benefit";
 import HomeBanner from "./components/HomeBanner";
 import CategoryBanner from "./components/CategoryBanner/CategoryBanner";
+import HomeCartView from "./components/HomeCartView";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   
   return (
     <>
+    <HomeCartView/>
     <HomeBanner/>
     <CategoryBanner/>
     {/* <Advertisement/> */}
